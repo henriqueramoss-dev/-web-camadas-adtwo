@@ -78,6 +78,8 @@ O repositório foi conectado pelo proprio login do github
 
 A variáveis foram configuradas na parte de Environment/Environment Variables na Render 
 
+A Render sabera atraves do campo “Start Command” que é configurado no painel da Render, assim rodando a api
+
 
 
 
