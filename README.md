@@ -81,5 +81,27 @@ A variáveis foram configuradas na parte de Environment/Environment Variables na
 A Render sabera atraves do campo “Start Command” que é configurado no painel da Render, assim rodando a api
 
 
+Segue a API rodando:
+
+<img width="480" height="119" alt="image" src="https://github.com/user-attachments/assets/cd866386-1004-48e5-8530-33e124727eb1" />
+
+Segue a requisição feita:
+
+<img width="1096" height="592" alt="image" src="https://github.com/user-attachments/assets/294edbd7-006d-45a8-9995-6ba90011f424" />
+
+4. Como a API se conecta ao banco hospedado
+
+O DATABASE_URL configurado na Render aponta para o banco na Aiven, pois contem as informações que o banco cria como: host, senha, usuario, nome do banco, tipo de banco e a porta
+
+As variaveis da Render substituem as informações do .env, pois o .env contem infmações sensives como a senha do banco, nome, usuario e etc
+
+Apareceria a menssagem de erro como, " erro de login " ou " erro de registrar usuario "
+
+Na parte de deploy não tive dificuldade
+
+
+
+
+
 
 
